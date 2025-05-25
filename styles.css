@@ -1,0 +1,108 @@
+/* Reset and base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Fullscreen container for name shuffle animation */
+.fullscreen-center {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Consolas", "Courier New", Courier, monospace;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  z-index: 1000;
+}
+
+#animated-name {
+  font-weight: 900;
+  font-size: 4rem;
+  color: #0f0;
+  font-family: inherit;
+  letter-spacing: 0.15em;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/* Terminal container */
+.terminal {
+    background-color: #111;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Terminal body */
+.terminal-header {
+    background-color: #222;
+    padding: -10px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #0f0;
+}
+.p_dash{
+    color: #0cf;
+    /* font-weight: bold; */
+}
+/* Prompt styling */
+.prompt {
+    display: flex;
+    align-items: center;
+}
+
+.user-input {
+  outline: none;
+  border: none;
+  background: none;
+  color: #0f0;
+  flex-grow: 1;
+  margin-left: 10px;
+  font-family: inherit;
+  font-size: 1.1rem;
+  caret-color: #0f0;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+/* Links inside terminal */
+a {
+  color: #0cf;
+  text-decoration: none;
+}
+.cmd-highlight{
+  color: #0cf;
+}
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+/* Selection colors */
+::selection {
+  background: #0f0;
+  color: #000;
+}
+
