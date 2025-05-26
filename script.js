@@ -110,8 +110,8 @@ document.addEventListener("DOMContentLoaded", () => {
     `,
     skills: () => `
       <span style="color:${themeColors.textColor};">Languages</span>:${"&nbsp;".repeat(2)}Python, JavaScript, Bash, Nodejs, R, Julia <br>
-      <span style="color:${themeColors.textColor};">Tools</span>:${"&nbsp;".repeat(6)}Git, Docker, Kubernetes, PostMan ${"&nbsp;".repeat(12)}Tracer, Prometheus, Grafana <br>
-      <span style="color:${themeColors.textColor};">Frameworks</span>:${"&nbsp;".repeat(1)}OpenSSL, Flask, MERN, FastAPI, PyTorch, Transformers, PEFT, Langchain, Streamlit <br>
+      <span style="color:${themeColors.textColor};">Tools</span>:${"&nbsp;".repeat(6)}Git, Docker, Kubernetes, PostMan, Tracer, Prometheus, Grafana <br>
+      <span style="color:${themeColors.textColor};">Frameworks</span>:${"&nbsp;".repeat(1)}OpenSSL, Flask, MERN, FastAPI, PyTorch, Transformers, PEFT, Langchain, ${"&nbsp;".repeat(11)} Streamlit <br>
       <span style="color:${themeColors.textColor};">Platforms</span>:${"&nbsp;".repeat(2)}Linux, Web, Windows, GCP, Azure, AWS <br>
       <hr>
     `,
