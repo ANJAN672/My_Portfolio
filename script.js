@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
     `,
     ls: () => commands.help(),
     welcome: `Hi!, I am Anjan B, welcome to my portfolio website!, (TODO) GUI version.
-              Sofware Engineer (Python Developer) with experience in backend development, AI/ML, and distributed computing. Proven expertise in Python, machine learning, cloud computing, and sofware optimization. Passionate about solving complex engineering challenges and building scalable applications.
+              Sofware Engineer (Python Developer) with experience in backend development, AI/ML, and distributed computing. Proven expertise in Python, machine learning, cloud computing, and sofware optimization. Solving complex engineering challenges and building scalable applications.
               Student @ SIET Tumkur, actively contributing to AI projects,
               and currently interning @<a href = "https://www.prodigalai.com" target = "_blank" style = "color: #0cf;">Prodigal AI</a>.<hr>
     `,
