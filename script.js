@@ -121,11 +121,11 @@ document.addEventListener("DOMContentLoaded", () => {
       3. <a href="https://x.com/anjan_046" target="_blank" style="color: #0fc;">X(Twitter)</a> <br><hr>
     `,
     cv: () => {
-      window.open("https://drive.google.com/file/d/16yet3XFVRLzD0uXyhRcSidD_6CPCQtgn/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1sIgKXaJLmoVGZdbUQob63rmt8WfLqPwi/view?usp=sharing");
       return "May not be the latest! xD";
     },
     resume: () => {
-      window.open("https://drive.google.com/file/d/16yet3XFVRLzD0uXyhRcSidD_6CPCQtgn/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1sIgKXaJLmoVGZdbUQob63rmt8WfLqPwi/view?usp=sharing");
       return "May not be the latest! xD";
     },
     themes: `hacker <br> personal <br> dracula <br> solarized dark <br> monokai <br> nord <br> vcs <br><br>type 'theme to theme-name'.<hr>
